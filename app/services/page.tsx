@@ -79,7 +79,7 @@ export default function Services() {
             </div>
             
             <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
-              <h2 className="text-2xl font-semibold mb-4 text-primary">4. Owner's Engineer & Technical Representation</h2>
+              <h2 className="text-2xl font-semibold mb-4 text-primary">4. Owner&apos;s Engineer & Technical Representation</h2>
               <p className="text-muted-foreground mb-4">
                 Safeguarding your project objectives with technical oversight.
               </p>

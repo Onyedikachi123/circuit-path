@@ -26,7 +26,7 @@ export default function HeroSection() {
       <div className="relative z-10 min-h-[70vh] flex items-center justify-center">
         <div className="text-center max-w-4xl mx-auto px-6 sm:px-20">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
-            Powering Africa's Future
+            Powering Africa&apos;s Future
           </h1>
           <p className="text-xl sm:text-2xl text-white mb-10 max-w-3xl mx-auto">
             Innovative energy infrastructure solutions for sustainable development

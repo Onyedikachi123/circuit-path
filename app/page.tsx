@@ -15,7 +15,7 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
               <p className="text-muted-foreground mb-4">
-                CircuitPath Projects Solutions Limited is a full-service energy infrastructure company offering innovative, end-to-end solutions in power and renewable energy. Our core focus is to bridge the energy gap through engineering excellence, sustainable energy systems, and strategic consulting tailored to Africa's dynamic power landscape.
+                CircuitPath Projects Solutions Limited is a full-service energy infrastructure company offering innovative, end-to-end solutions in power and renewable energy. Our core focus is to bridge the energy gap through engineering excellence, sustainable energy systems, and strategic consulting tailored to Africa&apos;s dynamic power landscape.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <Link

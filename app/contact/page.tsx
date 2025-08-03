@@ -125,7 +125,7 @@ export default function Contact() {
                   <option value="advisory">Power & Energy Advisory Services</option>
                   <option value="training">Capacity Development & Sector Training</option>
                   <option value="engineering">Engineering Design & EPC Services</option>
-                  <option value="owner">Owner's Engineer & Technical Representation</option>
+                  <option value="owner">Owner&apos;s Engineer & Technical Representation</option>
                   <option value="renewable">Renewable & Off-Grid Energy Solutions</option>
                   <option value="project">Energy Project Management & Execution Support</option>
                   <option value="other">Other</option>

@@ -11,10 +11,10 @@ export default function OwnersEngineer() {
         <nav className="text-sm mb-6">
           <Link href="/" className="text-primary hover:underline">Home</Link> 
           <Link href="/services" className="text-primary hover:underline ml-2">Services</Link> 
-          <span className="text-muted-foreground ml-2">Owner's Engineer & Technical Representation</span>
+          <span className="text-muted-foreground ml-2">Owner&apos;s Engineer & Technical Representation</span>
         </nav>
         
-        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Owner's Engineer & Technical Representation</h1>
+        <h1 className="text-3xl sm:text-4xl font-bold mb-8">Owner&apos;s Engineer & Technical Representation</h1>
         
         <div className="mb-12">
           <div className="relative w-full h-96 rounded-xl overflow-hidden mb-8">
@@ -34,7 +34,7 @@ export default function OwnersEngineer() {
           <div className="bg-card border border-border rounded-xl p-6 mb-8">
             <h2 className="text-2xl font-semibold mb-4 text-primary">Service Overview</h2>
             <p className="text-muted-foreground mb-4">
-              Our Owner's Engineer & Technical Representation services provide independent technical oversight and project management support to ensure your energy infrastructure projects meet the highest standards of quality, safety, and performance. We act as your technical advocate throughout the project lifecycle.
+              Our Owner&apos;s Engineer & Technical Representation services provide independent technical oversight and project management support to ensure your energy infrastructure projects meet the highest standards of quality, safety, and performance. We act as your technical advocate throughout the project lifecycle.
             </p>
           </div>
           

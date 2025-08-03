@@ -86,7 +86,7 @@ export default function SecondaryNavigation() {
                 className="block px-4 py-2 text-gray-800 hover:bg-gray-100 transition-colors"
                 onClick={() => setIsServicesOpen(false)}
               >
-                Owner's Engineer & Technical Representation
+                Owner&apos;s Engineer & Technical Representation
               </Link>
               <Link 
                 href="/services/renewable-offgrid" 
@@ -195,7 +195,7 @@ export default function SecondaryNavigation() {
                     className="block text-gray-600 hover:text-secondary transition-colors py-2"
                     onClick={() => {setIsMobileMenuOpen(false); setIsMobileServicesOpen(false);}}
                   >
-                    Owner's Engineer
+                    Owner&apos;s Engineer
                   </Link>
                   <Link 
                     href="/services/renewable-offgrid" 
