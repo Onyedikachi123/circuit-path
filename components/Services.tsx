@@ -11,6 +11,58 @@ import {
   ClipboardCheckIcon,
 } from "lucide-react";
 
+
+ const services = [
+    {
+      title: "Power & Energy Advisory Services",
+      description:
+        "Shaping strategic energy decisions for long-term value creation through expert advisory services on energy policy, regulatory frameworks, and investment strategy.",
+      icon: <LightbulbIcon size={28} />,
+      delay: 100,
+      link: "/services/energy-advisory",
+    },
+    {
+      title: "Capacity Development & Sector Training",
+      description:
+        "Empowering institutions, utilities, and professionals through knowledge transfer with customized workshops and technical training.",
+      icon: <BookOpenIcon size={28} />,
+      delay: 200,
+      link: "/services/capacity-development",
+    },
+    {
+      title: "Engineering Design & EPC Services",
+      description:
+        "Precision-driven design, execution, and project delivery covering the full project cycle from feasibility studies to commissioning.",
+      icon: <WrenchIcon size={28} />,
+      delay: 300,
+      link: "/services/engineering-design",
+    },
+    {
+      title: "Owner's Engineer & Technical Representation",
+      description:
+        "Safeguarding your project objectives with technical oversight, ensuring compliance with specifications throughout project development.",
+      icon: <ShieldIcon size={28} />,
+      delay: 400,
+      link: "/services/technical-representation",
+    },
+    {
+      title: "Renewable & Off-Grid Energy Solutions",
+      description:
+        "Designing and deploying solar mini-grids, hybrid energy systems, and standalone solar installations for remote and off-grid locations.",
+      icon: <SunIcon size={28} />,
+      delay: 500,
+      link: "/services/renewable-energy",
+    },
+    {
+      title: "Energy Project Management & Execution",
+      description:
+        "Delivering energy projects on time, on budget, and to global standards with full-cycle project management and disciplined execution.",
+      icon: <ClipboardCheckIcon size={28} />,
+      delay: 600,
+      link: "/services/project-management",
+    },
+  ];
+
 const Services: React.FC = () => {
   const titleRef = useRef<HTMLDivElement>(null);
 
@@ -32,50 +84,7 @@ const Services: React.FC = () => {
     };
   }, []);
 
-  const services = [
-    {
-      title: "Power & Energy Advisory Services",
-      description:
-        "Shaping strategic energy decisions for long-term value creation through expert advisory services on energy policy, regulatory frameworks, and investment strategy.",
-      icon: <LightbulbIcon size={28} />,
-      delay: 100,
-    },
-    {
-      title: "Capacity Development & Sector Training",
-      description:
-        "Empowering institutions, utilities, and professionals through knowledge transfer with customized workshops and technical training.",
-      icon: <BookOpenIcon size={28} />,
-      delay: 200,
-    },
-    {
-      title: "Engineering Design & EPC Services",
-      description:
-        "Precision-driven design, execution, and project delivery covering the full project cycle from feasibility studies to commissioning.",
-      icon: <WrenchIcon size={28} />,
-      delay: 300,
-    },
-    {
-      title: "Owner's Engineer & Technical Representation",
-      description:
-        "Safeguarding your project objectives with technical oversight, ensuring compliance with specifications throughout project development.",
-      icon: <ShieldIcon size={28} />,
-      delay: 400,
-    },
-    {
-      title: "Renewable & Off-Grid Energy Solutions",
-      description:
-        "Designing and deploying solar mini-grids, hybrid energy systems, and standalone solar installations for remote and off-grid locations.",
-      icon: <SunIcon size={28} />,
-      delay: 500,
-    },
-    {
-      title: "Energy Project Management & Execution",
-      description:
-        "Delivering energy projects on time, on budget, and to global standards with full-cycle project management and disciplined execution.",
-      icon: <ClipboardCheckIcon size={28} />,
-      delay: 600,
-    },
-  ];
+ 
 
   return (
     <section id="services" className=" bg-background text-foreground">
@@ -100,6 +109,7 @@ const Services: React.FC = () => {
               description={service.description}
               icon={service.icon}
               delay={service.delay}
+              link={service.link} 
             />
           ))}
         </div>

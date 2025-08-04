@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import React, { useEffect, useRef } from "react";
 
 interface ServiceCardProps {
@@ -7,6 +8,7 @@ interface ServiceCardProps {
   description: string;
   icon: React.ReactNode;
   delay: number;
+  link: string;
 }
 
 const ServiceCard: React.FC<ServiceCardProps> = ({
@@ -14,6 +16,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
   description,
   icon,
   delay,
+  link
 }) => {
   const cardRef = useRef<HTMLDivElement>(null);
 
@@ -48,8 +51,9 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
       <h3 className="text-xl font-bold text-gray-900 mb-3">{title}</h3>
       <p className="text-gray-600">{description}</p>
       <div className="mt-6">
-        <a
-          href="#"
+        {/* ✅ CHANGED: Dynamic href based on service title */}
+        <Link
+          href={link}
           className="text-[#059669] font-medium flex items-center hover:text-[#059669] transition-colors"
         >
           Learn more
@@ -66,7 +70,7 @@ const ServiceCard: React.FC<ServiceCardProps> = ({
               d="M9 5l7 7-7 7"
             />
           </svg>
-        </a>
+        </Link>
       </div>
     </div>
   );

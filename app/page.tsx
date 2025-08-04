@@ -9,15 +9,43 @@ export default function Home() {
     <div className="font-sans h-screen bg-background text-foreground flex flex-col justify-between">
       <main className="flex flex-col gap-16 w-full px-0 py-0">
         <HeroSection />
-        
         {/* About Us Section */}
         <div className="py-8  px-6 sm:px-20">
-          <h2 className="text-3xl font-bold mb-8 text-center">About CircuitPath</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
+              <h2 className="text-3xl font-bold mb-8">
+                About CircuitPath Projects Solutions
+              </h2>
               <p className="text-muted-foreground mb-4">
-                CircuitPath Projects Solutions Limited is a full-service energy infrastructure company offering innovative, end-to-end solutions in power and renewable energy. Our core focus is to bridge the energy gap through engineering excellence, sustainable energy systems, and strategic consulting tailored to Africa&apos;s dynamic power landscape.
+                CircuitPath Projects Solutions Limited is a full-service energy
+                infrastructure company offering innovative, end-to-end solutions
+                in power and renewable energy. Our core focus is to bridge the
+                energy gap through engineering excellence, sustainable energy
+                systems, and strategic consulting tailored to Africa&apos;s
+                dynamic power landscape.
               </p>
+              <p className="text-muted-foreground mb-8">
+                Our core focus is to bridge the energy gap through engineering
+                excellence, sustainable energy systems, and strategic consulting
+                tailored to Africa&apos;s dynamic power landscape.
+              </p>
+              <div className="flex flex-wrap gap-4">
+                <div className="bg-blue-50 rounded-lg px-5 py-3 border-l-4 border-blue-600">
+                  <p className="text-blue-800 font-medium">
+                    Engineering Excellence
+                  </p>
+                </div>
+                <div className="bg-green-50 rounded-lg px-5 py-3 border-l-4 border-green-600">
+                  <p className="text-green-800 font-medium">
+                    Sustainable Solutions
+                  </p>
+                </div>
+                <div className="bg-amber-50 rounded-lg px-5 py-3 border-l-4 border-amber-600">
+                  <p className="text-amber-800 font-medium">
+                    Strategic Consulting
+                  </p>
+                </div>
+              </div>
               <div className="flex flex-col sm:flex-row gap-4 mt-6">
                 <Link
                   href="/about"
@@ -27,7 +55,7 @@ export default function Home() {
                 </Link>
               </div>
             </div>
-            <div className="relative w-full h-80 rounded-xl overflow-hidden">
+            <div className="relative w-full h-full rounded-xl overflow-hidden">
               <div className="absolute inset-0">
                 <Image
                   // src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
@@ -41,7 +69,6 @@ export default function Home() {
             </div>
           </div>
         </div>
-        
         {/* Core Services Section */}
         {/* <div className="py-8 max-w-6xl mx-auto px-6 sm:px-20">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Core Services</h2>
@@ -77,7 +104,6 @@ export default function Home() {
           </div>
         </div> */}
         <Services />
-        
         {/* Features Section */}
         {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8  px-6 sm:px-20"> 
           <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
@@ -115,13 +141,16 @@ export default function Home() {
               Comprehensive maintenance services to keep your system running at peak efficiency.
             </p>
           </div>
-        </div> */} {/*max-w-6xl mx-auto*/}
-        
-        {/* CTA Section */}  
+        </div> */}{" "}
+        {/*max-w-6xl mx-auto*/}
+        {/* CTA Section */}
         <div className="bg-primary mt-32 rounded-2xl p-8 md:p-12 text-center text-primary-foreground max-w-6xl mx-auto px-6 sm:px-20">
-          <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Transform Your Energy Infrastructure?</h2>
+          <h2 className="text-2xl md:text-3xl font-bold mb-4">
+            Ready to Transform Your Energy Infrastructure?
+          </h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
-            Join thousands of satisfied customers who have reduced their energy costs and environmental impact.
+            Join thousands of satisfied customers who have reduced their energy
+            costs and environmental impact.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
