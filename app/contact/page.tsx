@@ -43,8 +43,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-lg">Phone</h3>
                   <p className="text-muted-foreground">
-                    +234 123 456 7890<br />
-                    +234 098 765 4321
+                    +234 814 530 1414<br />     
                   </p>
                 </div>
               </div>
@@ -58,8 +57,7 @@ export default function Contact() {
                 <div>
                   <h3 className="font-semibold text-lg">Email</h3>
                   <p className="text-muted-foreground">
-                    info@circuitpathprojects.com<br />
-                    support@circuitpathprojects.com
+                    circuit.path.solutions@gmail.com<br />
                   </p>
                 </div>
               </div>

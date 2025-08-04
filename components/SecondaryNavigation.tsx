@@ -45,6 +45,7 @@ export default function SecondaryNavigation() {
       <div className="hidden md:flex space-x-8 items-center">
         <Link href="/" className="text-[#3c3c3c] hover:text-secondary transition-colors">Home</Link>
         <Link href="/about" className="text-[#3c3c3c] hover:text-secondary transition-colors">About Us</Link>
+        <Link href="/projects" className="text-[#3c3c3c] hover:text-secondary transition-colors">Project</Link>
         
         {/* Services Dropdown */}
         <div className="relative" ref={servicesRef}>
@@ -120,7 +121,7 @@ export default function SecondaryNavigation() {
       <div className="hidden md:block">
         <Link 
           href="/contact" 
-          className="bg-energy-green text-white hover:bg-secondary px-6 py-2 rounded-full font-medium transition-colors"
+          className="bg-energy-green text-white hover:bg-secondary px-6 py-3 rounded-full font-medium transition-colors"
         >
           Get a Free Quote
         </Link>

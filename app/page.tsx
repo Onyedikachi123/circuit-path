@@ -2,15 +2,16 @@ import Link from "next/link";
 import HeroSection from "@/components/HeroSection";
 import Footer from "@/components/Footer";
 import Image from "next/image";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <div className="font-sans min-h-screen bg-background text-foreground flex flex-col justify-between">
+    <div className="font-sans h-screen bg-background text-foreground flex flex-col justify-between">
       <main className="flex flex-col gap-16 w-full px-0 py-0">
         <HeroSection />
         
         {/* About Us Section */}
-        <div className="py-8 max-w-6xl mx-auto px-6 sm:px-20">
+        <div className="py-8  px-6 sm:px-20">
           <h2 className="text-3xl font-bold mb-8 text-center">About CircuitPath</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div>
@@ -29,7 +30,8 @@ export default function Home() {
             <div className="relative w-full h-80 rounded-xl overflow-hidden">
               <div className="absolute inset-0">
                 <Image
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                  // src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+                  src="https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
                   alt="Energy Infrastructure"
                   fill
                   className="object-cover"
@@ -41,7 +43,7 @@ export default function Home() {
         </div>
         
         {/* Core Services Section */}
-        <div className="py-8 max-w-6xl mx-auto px-6 sm:px-20">
+        {/* <div className="py-8 max-w-6xl mx-auto px-6 sm:px-20">
           <h2 className="text-3xl font-bold mb-8 text-center">Our Core Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
@@ -73,10 +75,11 @@ export default function Home() {
               View All Services
             </Link>
           </div>
-        </div>
+        </div> */}
+        <Services />
         
         {/* Features Section */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8 max-w-6xl mx-auto px-6 sm:px-20">
+        {/* <div className="grid grid-cols-1 md:grid-cols-3 gap-8 py-8  px-6 sm:px-20"> 
           <div className="bg-card border border-border rounded-xl p-6 hover:shadow-lg transition-shadow">
             <div className="bg-primary/10 w-12 h-12 rounded-lg flex items-center justify-center mb-4">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 text-primary" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -112,10 +115,10 @@ export default function Home() {
               Comprehensive maintenance services to keep your system running at peak efficiency.
             </p>
           </div>
-        </div>
+        </div> */} {/*max-w-6xl mx-auto*/}
         
-        {/* CTA Section */}
-        <div className="bg-primary rounded-2xl p-8 md:p-12 text-center text-primary-foreground max-w-6xl mx-auto px-6 sm:px-20">
+        {/* CTA Section */}  
+        <div className="bg-primary mt-32 rounded-2xl p-8 md:p-12 text-center text-primary-foreground max-w-6xl mx-auto px-6 sm:px-20">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Transform Your Energy Infrastructure?</h2>
           <p className="text-lg mb-8 max-w-2xl mx-auto opacity-90">
             Join thousands of satisfied customers who have reduced their energy costs and environmental impact.

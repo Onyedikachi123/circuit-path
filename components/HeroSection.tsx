@@ -23,7 +23,7 @@ export default function HeroSection() {
       </div>
 
       {/* Hero Content */}
-      <div className="relative z-10 min-h-[70vh] flex items-center justify-center">
+      <div className="relative z-10 h-screen flex items-center justify-center">
         <div className="text-center max-w-4xl mx-auto px-6 sm:px-20">
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6">
             Powering Africa&apos;s Future
@@ -34,13 +34,13 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="bg-white text-energy-green hover:bg-gray-100 px-8 py-4 rounded-full font-medium text-lg transition-colors"
+              className="bg-white text-energy-green hover:bg-gray-100 px-8 py-3 rounded-full font-medium text-lg transition-colors"
             >
               Get Started Today
             </Link>
             <Link
               href="/services"
-              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-4 rounded-full font-medium text-lg transition-colors"
+              className="bg-transparent border-2 border-white text-white hover:bg-white/10 px-8 py-3 rounded-full font-medium text-lg transition-colors"
             >
               Explore Our Services
             </Link>
