@@ -59,6 +59,12 @@ export default function Navigation() {
         >
           About Us
         </Link>
+        <Link
+          href="/projects"
+          className="text-white hover:text-secondary transition-colors"
+        >
+          Project
+        </Link>
 
         {/* Services Dropdown */}
         <div className="relative" ref={servicesRef}>
